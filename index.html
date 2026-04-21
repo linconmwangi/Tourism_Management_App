@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dream Adventures</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Dream Adventures</h1>
+    </header>
+
+    <!-- Home -->
+    <section id="home">
+        <h2>Welcome to Dream Adventures</h2>
+        <p>Discover the best of Kenya with our curated travel experiences.</p>
+    </section>
+
+    <!-- Destinations -->
+    <section id="destinations">
+        <h2>Popular Destinations</h2>
+        <input type="text" id="search" placeholder="Search destinations...">
+        <div id="destinations-list">
+            <!-- Destinations will load here via JavaScript -->
+            <p style="text-align:center; color:#666;">Loading destinations...</p>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery-section">
+        <h2>Safari Experience Gallery</h2>
+        <div class="gallery-grid">
+            <div class="photo-card">
+                <img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d?auto=format&fit=crop&w=600" alt="Maasai Mara">
+                <div class="caption">Maasai Mara</div>
+            </div>
+            <div class="photo-card">
+                <img src="https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?auto=format&fit=crop&w=600" alt="Diani Beach">
+                <div class="caption">Diani Beach</div>
+            </div>
+            <div class="photo-card">
+                <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=600" alt="Amboseli">
+                <div class="caption">Amboseli National Park</div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking -->
+    <section id="book">
+        <h2>Book Your Trip</h2>
+        <form id="booking-form">
+            <input type="date" id="travel-date" required>
+            <input type="number" id="travelers" min="1" value="1" placeholder="Travelers" required>
+            <input type="email" id="user-email" placeholder="Your Email" required>
+            <button type="submit">Confirm Booking</button>
+        </form>
+    </section>
+
+    <!-- Blogs -->
+    <section id="blogs">
+        <h2>Travel Blogs & Ratings</h2>
+        <div id="blogs-list">
+            <div class="blog-item">The Great Migration Experience - Rating 4.9 ⭐</div>
+            <div class="blog-item">Beautiful Diani Beach Getaway - Rating 5.0 ⭐</div>
+            <div class="blog-item">Wildlife Adventure in Amboseli - Rating 4.8 ⭐</div>
+        </div>
+    </section>
+
+    <!-- Partners -->
+    <section id="partners">
+        <h2>Our Partners</h2>
+        <p>We partner with trusted organizations:</p>
+        <ul>
+            <li>Kenya Wildlife Service</li>
+            <li>Magical Kenya</li>
+            <li>Tourism Regulatory Authority</li>
+            <li>Eco Tourism Kenya</li>
+        </ul>
+    </section>
+
+    <!-- Call to Action -->
+    <section>
+        <p style="text-align:center;">Ready to book your Kenya adventure?</p>
+        <div style="text-align:center;">
+            <a href="#book" style="display:inline-block; padding:12px 30px; background:#4a24f3; color:white; text-decoration:none; border-radius:6px;">Book Now</a>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Reach out for more information:</p>
+        <ul>
+            <li>WhatsApp: 0792101448</li>
+            <li>Email: info@dreamadventures.com</li>
+            <li>Email: safaris@dreamadventures.com</li>
+        </ul>
+    </section>
+
+    <footer style="text-align:center; padding:20px; color:white;">
+        <p>&copy; 2026 Dream Adventures. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>
